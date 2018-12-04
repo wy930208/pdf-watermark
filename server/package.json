@@ -1,0 +1,16 @@
+{
+  "name": "node-pdf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wy",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.16.4",
+    "node-pdftk": "^2.0.1",
+    "pm2": "^3.2.2"
+  }
+}

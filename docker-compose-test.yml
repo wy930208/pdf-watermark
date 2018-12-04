@@ -1,0 +1,16 @@
+version: "3.0"
+services:
+  server_1:
+    container_name: pdf-watermark
+    build: 
+      context: ./server
+    volumes:
+      - ./server:/usr/src/app
+      - ./files:/usr/src/files
+      - ./logs:/logs
+    ports:
+      - "3100:3100"
+    environment:
+      - NODE_ENV=test
+      - TZ=Asia/Shanghai
+
